@@ -1,8 +1,8 @@
 content:
-  - name: "Pages"
-    label: "home section"
-    path: "src/app"
-    type: "collection"
+  - name: "Page"
+    label: "Home Page"
+    path: "src/pageFiles"
+    type: "file"
     fields:
       - name: tweet
         label: Tweet
@@ -10,8 +10,8 @@ content:
         options:
           maxlength: 140
   - name: "Page"
-    label: "home section"
-    path: "src/app"
+    label: "About"
+    path: "src/pageFiles"
     type: "file"
     fields:
       - name: yolo
