@@ -2,7 +2,7 @@ content:
   - name: posts
     label: Posts
     type: collection
-    path: 'src/pageFiles/_posts'
+    path: 'src/_posts'
     view:
       fields: [ title, published, date ]
     fields:
