@@ -18,4 +18,4 @@ content:
         type: text
       - name: description
         label: Description
-        type: textarea
+        type: rich-text
