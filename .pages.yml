@@ -1,0 +1,15 @@
+content:
+  - title: "Home"
+    path: "index.html"
+    layout: "home"
+    sections:
+      - title: "Welcome"
+        content: "Welcome to my website!"
+      - title: "About"
+        content: "I am a web developer."
+  - title: "Contact"
+    path: "contact.html"
+    layout: "contact"
+    sections:
+      - title: "Contact"
+        content: "You can contact me at..."
