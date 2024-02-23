@@ -1,31 +1,11 @@
-# Website configuration
-title: Your Website Title
-description: A brief description of your website
-url: https://your-website-domain.com
-author: Your Name
-email: your@email.com
-
-# Theme configuration
-theme: default # Change this to the theme you want to use
-
-# Navigation menu configuration
-menu:
-  - name: Home
-    link: "/"
-  - name: About
-    link: "/about"
-
-# Pages configuration
-pages:
-  # Home page
-  home:
-    title: Home Page Title
-    # Home page content (optional)
-    content: |
-      Your home page content goes here. You can use markdown formatting.
-
-  # About page
-  about:
-    title: About Page Title
-    content: |
-      Your website's about content goes here. You can use markdown formatting.
+content:
+  - name: "Pages"
+    label: "home section"
+    path: "src/app"
+    type: "collection"
+    fields:
+      - name: tweet
+        label: Tweet
+        type: text
+        options:
+        maxlength: 140
