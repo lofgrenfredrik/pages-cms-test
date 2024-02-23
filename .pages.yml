@@ -1,30 +1,28 @@
-pages:
-  - name: Home
-    path: /
-    template: home
-  - name: About
-    path: /about
-    template: about
-  - name: Contact
-    path: /contact
-    template: contact
+# Website configuration
+title: Your Website Title
+description: A brief description of your website
+url: https://your-website-domain.com
+author: Your Name
+email: your@email.com
 
-templates:
-  - name: home
-    fields:
-      - name: title
-        type: text
-      - name: content
-        type: markdown
-  - name: about
-    fields:
-      - name: title
-        type: text
-      - name: content
-        type: markdown
-  - name: contact
-    fields:
-      - name: title
-        type: text
-      - name: content
-        type: markdown
+# Theme configuration
+theme: default # Change this to the theme you want to use
+theme_config:
+  # Theme specific configuration options go here
+
+# Navigation menu configuration
+menu:
+  - name: Home
+    link: "/"
+  - name: About
+    link: "/about"
+
+# Content configuration
+content:
+  # Home page content
+  home:
+    title: Home Page Title
+  # About page content
+  about:
+    title: About Page Title
+    content: Your website's about content goes here.
