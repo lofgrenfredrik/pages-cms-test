@@ -3,10 +3,8 @@ content:
     label: "home section"
     path: "src/page"
     fields:
-      - name: "title"
-        label: "Title"
-        type: "string"
-      - name: "about"
-        label: "About"
-        type: "string"
-        description: Will be provused for any page with no description.
+      - name: tweet
+        label: Tweet
+        type: text
+        options:
+        maxlength: 140
