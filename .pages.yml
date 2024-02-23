@@ -1,5 +1,5 @@
 content:
-  - name: "Page"
+  - name: "page"
     label: "Home Page"
     path: "src/pageFiles/home.md"
     type: "file"
@@ -8,7 +8,7 @@ content:
         label: Title
         type: text
 
-  - name: "Page"
+  - name: "about"
     label: "About"
     path: "src/pageFiles/about.md"
     type: "file"
