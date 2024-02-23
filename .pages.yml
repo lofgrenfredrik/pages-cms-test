@@ -8,4 +8,4 @@ content:
         label: Tweet
         type: text
         options:
-        maxlength: 140
+          maxlength: 140
