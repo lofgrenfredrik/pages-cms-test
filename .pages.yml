@@ -1,7 +1,7 @@
 content:
   - name: "Home"
     label: "home section"
-    path: "src/page"
+    path: "src/app"
     type: "collection"
     fields:
       - name: tweet
