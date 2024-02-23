@@ -7,8 +7,6 @@ email: your@email.com
 
 # Theme configuration
 theme: default # Change this to the theme you want to use
-theme_config:
-  # Theme specific configuration options go here
 
 # Navigation menu configuration
 menu:
@@ -17,12 +15,17 @@ menu:
   - name: About
     link: "/about"
 
-# Content configuration
-content:
-  # Home page content
+# Pages configuration
+pages:
+  # Home page
   home:
     title: Home Page Title
-  # About page content
+    # Home page content (optional)
+    content: |
+      Your home page content goes here. You can use markdown formatting.
+
+  # About page
   about:
     title: About Page Title
-    content: Your website's about content goes here.
+    content: |
+      Your website's about content goes here. You can use markdown formatting.
