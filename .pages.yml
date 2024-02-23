@@ -2,6 +2,7 @@ content:
   - name: "Home"
     label: "home section"
     path: "src/page"
+    type: "page"
     fields:
       - name: tweet
         label: Tweet
