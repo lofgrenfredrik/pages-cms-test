@@ -1,7 +1,7 @@
 content:
   - name: "Page"
     label: "Home Page"
-    path: "src/pageFiles/"
+    path: "src/pageFiles/home.md"
     type: "file"
     fields:
       - name: tweet
@@ -11,7 +11,7 @@ content:
           maxlength: 140
   - name: "Page"
     label: "About"
-    path: "src/pageFiles/"
+    path: "src/pageFiles/about.md"
     type: "file"
     fields:
       - name: yolo
