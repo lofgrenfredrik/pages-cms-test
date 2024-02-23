@@ -1,11 +1,30 @@
-content:
-  - name: "Home"
-    label: "home section"
-    path: "src/app"
-    type: "collection"
+pages:
+  - name: Home
+    path: /
+    template: home
+  - name: About
+    path: /about
+    template: about
+  - name: Contact
+    path: /contact
+    template: contact
+
+templates:
+  - name: home
     fields:
-      - name: tweet
-        label: Tweet
+      - name: title
         type: text
-        options:
-        maxlength: 140
+      - name: content
+        type: markdown
+  - name: about
+    fields:
+      - name: title
+        type: text
+      - name: content
+        type: markdown
+  - name: contact
+    fields:
+      - name: title
+        type: text
+      - name: content
+        type: markdown
