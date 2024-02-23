@@ -2,7 +2,7 @@ content:
   - name: "Home"
     label: "home section"
     path: "src/page"
-    type: "page"
+    type: "collection"
     fields:
       - name: tweet
         label: Tweet
