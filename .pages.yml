@@ -9,3 +9,13 @@ content:
         type: text
         options:
           maxlength: 140
+  - name: "Page"
+    label: "home section"
+    path: "src/app"
+    type: "file"
+    fields:
+      - name: yolo
+        label: Yolo
+        type: text
+        options:
+          maxlength: 140
