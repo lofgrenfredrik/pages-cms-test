@@ -4,18 +4,18 @@ content:
     path: "src/pageFiles/home.md"
     type: "file"
     fields:
-      - name: tweet
-        label: Tweet
+      - name: title
+        label: Title
         type: text
-        options:
-          maxlength: 140
+
   - name: "Page"
     label: "About"
     path: "src/pageFiles/about.md"
     type: "file"
     fields:
-      - name: yolo
-        label: Yolo
+      - name: title
+        label: Title
         type: text
-        options:
-          maxlength: 140
+      - name: description
+        label: Description
+        type: textarea
